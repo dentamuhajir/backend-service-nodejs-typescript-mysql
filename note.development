@@ -32,4 +32,24 @@
 
     Create Database
     CREATE DATABASE ecommerce;
+
+    # Add eslint & Run eslint
+    npm install --save-dev eslint
+    npm init @eslint/config@latest
+    npx eslint . --ext .ts
     
+    
+    How would you like to use ESLint?: To check syntax and find problems
+
+    ✔ What do you want to lint? · javascript
+    ✔ How would you like to use ESLint? · problems
+    ✔ What type of modules does your project use? · esm
+    ✔ Which framework does your project use? · none
+    ✔ Does your project use TypeScript? · no / yes
+    ✔ Where does your code run? · browser
+    The config that you've selected requires the following dependencies:
+
+    eslint, @eslint/js, globals, typescript-eslint
+    ✔ Would you like to install them now? · No / Yes
+    ✔ Which package manager do you want to use? · npm
+    ☕️Installing...
