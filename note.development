@@ -25,3 +25,11 @@
 
     Run application
     node dist/app.js
+
+    Open Database
+    mysql -u root -p
+    zcbsdbsdgwegwet23
+
+    Create Database
+    CREATE DATABASE ecommerce;
+    
