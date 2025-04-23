@@ -19,3 +19,9 @@
 
     npm install --save express
     npm install -save-dev @types/express
+
+    npx tsc 
+    'npx tsc is primarily used to invoke the TypeScript compiler'
+
+    Run application
+    node dist/app.js
