@@ -53,3 +53,8 @@
     ✔ Would you like to install them now? · No / Yes
     ✔ Which package manager do you want to use? · npm
     ☕️Installing...
+
+    # Prisma & mysql
+    npm install @prisma/client
+    npx prisma init
+    
