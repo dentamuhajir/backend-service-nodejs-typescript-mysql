@@ -37,6 +37,9 @@
     npm install --save-dev eslint
     npm init @eslint/config@latest
     npx eslint . --ext .ts
+
+    Reference
+    https://dev.to/ezzdinatef/ecommerce-database-design-1ggc
     
     
     How would you like to use ESLint?: To check syntax and find problems
@@ -57,4 +60,9 @@
     # Prisma & mysql
     npm install @prisma/client
     npx prisma init
+
+    migrate
+    npx prisma migrate dev 
+    If any error occur solve with this command
+    npx prisma migrate reset
     
